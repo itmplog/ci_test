@@ -4,5 +4,9 @@ compiler:
     - clang
 before_install: 
     - echo "test before_install"
-install: make test
+install:  true
+
+script: 
+    - make test
+    - ./test
 
